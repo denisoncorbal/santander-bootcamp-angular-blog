@@ -1,0 +1,40 @@
+.container__post{
+
+    width: 100%;
+    height: 100vh;
+  
+    margin-top: 20px;
+  
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+  }
+
+  .container__post > form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+  }
+
+  .container__post > form > div{
+    margin: 10px;
+    width: 50%;
+  }
+
+  div > label{
+    margin: 10px;
+    width: 20%;
+  }
+
+  div > input{
+    width: 80%;
+  }
+
+  .post__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+  }

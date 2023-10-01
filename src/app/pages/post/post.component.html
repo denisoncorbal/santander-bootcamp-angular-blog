@@ -1,0 +1,20 @@
+<div class="container__post">
+    <form #f="ngForm" method="post" (ngSubmit)="onSubmit(f)" novalidate>
+        <div class="post__input__title">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" ngModel #title="ngModel" placeholder="Title"/>
+        </div>
+        <div class="post__input__photoCover">
+            <label for="photoCover">Photo cover</label>
+            <input type="text" id="photoCover" name="photoCover" ngModel #photoCover="ngModel" placeholder="Photo Cover URL"/>
+        </div>
+        <div class="post__input__description">
+            <label for="description">Description</label>
+            <input type="text" id="description" name="description" ngModel #description="ngModel" placeholder="description"/>
+        </div>
+        <div class="post__buttons">
+            <a [routerLink]="['']"> << VOLTAR </a>
+            <button type="submit">GRAVAR</button>
+        </div>
+    </form>    
+</div>  
