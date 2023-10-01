@@ -1,4 +1,8 @@
-# AngularBlog
+# Added
+
+As challenge on bootcamp I added an in memory post creation and display to the blog provided.
+
+## AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
